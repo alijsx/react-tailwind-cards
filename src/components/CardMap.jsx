@@ -162,7 +162,7 @@ function CardMap() {
 
     return (
         <div className="grid grid-cols-1  w-full">
-            <Slider {...settings} className='w-full' >
+            <Slider {...settings} className='w-full' style={{ transition: 'all 0.5s ease' }} >
 
                 {cardsData.map((card, index) => (
                     <Card key={index} cardData={card} />
