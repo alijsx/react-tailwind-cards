@@ -109,7 +109,6 @@ function CardMap() {
     const settings = {
         dots: true,
         slidesToShow: 4,
-        lazyLoad: true,
 
         slidesToScroll: 1,
         autoplay: false,
