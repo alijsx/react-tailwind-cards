@@ -1,0 +1,84 @@
+[
+    {
+      "id": 1,
+      "image": "/assets/img1.png",
+      "name": "ChatGpt fur Fotografen",
+      "description": "In diesem Video Seminar will ich euch ein paar einfache Tricks zeigen wie ihr sinnvoll ChatGPT als Fotogra",
+      "location": "5 CR",
+      "profession": "28.10.2023",
+      "followers": "89.1k"
+    },
+    {
+      "id": 2,
+      "image": "/assets/img2.png",
+      "name": "InDifferent Studios",
+      "description": "Hey! We are Sarah, Jenny Lennart and Korbi, together we are inDifferent Studios, an ambitious photography",
+      "location": "Regensburg-Bavaria (Germany)",
+      "profession": "Photographer",
+      "followers": "120k"
+    },
+    {
+        "id": 3,
+        "image": "/assets/img1.png",
+        "name": "Favorite Male Models",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, illum!",
+        "location": "Los Angeles-California (United States)",
+        "profession": "04/11/2023",
+        "followers": "89.1k"
+      },
+      {
+        "id": 4,
+        "image": "/assets/img2.png",
+        "name": "John Doe",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, illum!",
+        "location": "New York (USA)",
+        "profession": "Photographer",
+        "followers": "120k"
+      },
+      {
+        "id": 5,
+        "image": "/assets/img1.png",
+        "name": "ChatGpt fur Fotografen",
+        "description": "In diesem Video Seminar will ich euch ein paar einfache Tricks zeigen wie ihr sinnvoll ChatGPT als Fotogra",
+        "location": "5 CR",
+        "profession": "28.10.2023",
+        "followers": "89.1k"
+      },
+      {
+        "id": 6,
+        "image": "/assets/img2.png",
+        "name": "InDifferent Studios",
+        "description": "Hey! We are Sarah, Jenny Lennart and Korbi, together we are inDifferent Studios, an ambitious photography",
+        "location": "Regensburg-Bavaria (Germany)",
+        "profession": "Photographer",
+        "followers": "120k"
+      },
+      {
+          "id": 7,
+          "image": "/assets/img1.png",
+          "name": "Favorite Male Models",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, illum!",
+          "location": "Los Angeles-California (United States)",
+          "profession": "04/11/2023",
+          "followers": "89.1k"
+        },
+        {
+          "id": 8,
+          "image": "/assets/img2.png",
+          "name": "John Doe",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, illum!",
+          "location": "New York (USA)",
+          "profession": "Photographer",
+          "followers": "120k"
+        },
+        {
+            "id": 9,
+            "image": "/assets/img2.png",
+            "name": "John Doe",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, illum!",
+            "location": "New York (USA)",
+            "profession": "Photographer",
+            "followers": "120k"
+          }
+  ]
+  
