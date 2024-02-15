@@ -2,7 +2,8 @@ import cardsData from '../data.json'; // Import JSON data
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
+import diamond from '../assets/diamond.svg'
+import dropdown from '../assets/dropdown.svg'
 
 
 
@@ -13,20 +14,18 @@ function Card({ cardData }) {
     return (
         <div className="relative w-full rounded-xl overflow-hidden px-1">
             <div className="relative">
-                <img className="rounded-[30px]" src={cardData.image} alt="" />
+                <img className="rounded-[15px]" src={cardData.image} alt="" />
                 <div className="absolute inset-0 flex flex-col items-center justify-start p-5">
                     <div className="flex justify-between w-full">
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white" ><path d="M7.388 9h9.225l-4.613 14-4.612-14zm.612-2h8l-4-5.333-4 5.333zm10.5 0h5.5l-6-6h-4l4.5 6zm-13 0l4.5-6h-3.916l-6.084 6h5.5zm-5.5 2l9.234 12-3.955-12h-5.279zm18.721 0l-3.924 12 9.203-12h-5.279z" /></svg>
+                     <img className='w-8 h-8' src={diamond} alt="" />
                         </div>
                         <div className='cursor-pointer'>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-6 h-6 text-white">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                            </svg>
+                        <img className='w-4 h-4 mt-2' src={dropdown} alt="" />
 
                         </div>
                     </div>
-                    <div className="absolute inset-x-0 bottom-0 bg-opacity-50 bg-white backdrop-filter backdrop-blur-lg flex flex-col items-center justify-end p-5 rounded-[30px]">
+                    <div className="absolute inset-x-0 bottom-0   bg-opacity-20 bg-white border-t border-gray-400 backdrop-filter backdrop-blur-lg flex flex-col items-center justify-end p-5 rounded-[15px]">
                         <div className="flex justify-between w-full text-white">
                             <div>
                                 <p className='text-lg font-medium'>{cardData.name}</p>
