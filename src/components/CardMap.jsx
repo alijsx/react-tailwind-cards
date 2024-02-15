@@ -20,10 +20,10 @@ function Card({ cardData }) {
                 <div className="absolute inset-0 flex flex-col items-center justify-start p-5">
                     <div className="flex justify-between w-full">
                         <div>
-                            <img className='w-8 h-8 filter invert' src={diamond} alt="" />
+                            <img className='w-10 h-10 filter invert' src={diamond} alt="" />
                         </div>
                         <div className='cursor-pointer'>
-                            <img className='w-4 h-4 mt-2' src={dropdown} alt="" />
+                            <img className='w-6 h-6 mt-2' src={dropdown} alt="" />
 
                         </div>
                     </div>
@@ -39,7 +39,7 @@ function Card({ cardData }) {
 
                             </div>
                         </div>
-                        <div className="flex justify-between items-center w-full text-white">
+                        <div className="flex justify-between mt-2 items-center w-full text-white">
                             <div>
 
                                 <p className='text-sm  font-medium mt-2'>{cardData.location}</p>
