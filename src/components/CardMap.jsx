@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 
 function Card({ cardData }) {
     return (
-        <div className="relative w-full rounded-xl overflow-hidden px-1">
+        <div className="relative w-full rounded-xl overflow-hidden px-1 fontt">
             <div className="relative">
                 <img className="rounded-[15px]" src={cardData.image} alt="" />
 
@@ -30,19 +30,19 @@ function Card({ cardData }) {
                     <div className="absolute inset-x-0 bottom-0   bg-opacity-20 bg-white border-t border-gray-400 backdrop-filter backdrop-blur-lg flex flex-col items-center justify-end p-5 rounded-[15px]">
                         <div className="flex justify-between w-full text-white">
                             <div>
-                                <p className='text-lg font-bold'>{cardData.name}</p>
-                                <p className='text-sm mt-2 font-medium opacity-80'>{cardData.description}</p>
+                                <p className='text-lg '>{cardData.name}</p>
+                                <p className='text-sm mt-2  opacity-80'>{cardData.description}</p>
                             </div>
                             <div className='cursor-pointer'>
-                                <p className='font-medium whitespace-nowrap'>{cardData.profession}</p>
-                                <p className='text-end font-medium  text-md mt-2'>{cardData.followers}</p>
+                                <p className=' whitespace-nowrap'>{cardData.profession}</p>
+                                <p className='text-end   text-md mt-2'>{cardData.followers}</p>
 
                             </div>
                         </div>
                         <div className="flex justify-between mt-2 items-center w-full text-white">
                             <div>
 
-                                <p className='text-sm  font-medium mt-2'>{cardData.location}</p>
+                                <p className='text-sm   mt-2'>{cardData.location}</p>
                             </div>
                             <div className='cursor-pointer'>
 
