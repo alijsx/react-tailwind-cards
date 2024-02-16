@@ -31,6 +31,7 @@ function Card({ cardData }) {
                         <div className="flex justify-between w-full text-white">
                             <div>
                                 <p className='text-lg '>{cardData.name}</p>
+                                <p className='text-sm '>{cardData.info3}</p>
                                 <p className='text-sm mt-2  opacity-80'>{cardData.description}</p>
                             </div>
                             <div className='cursor-pointer'>
