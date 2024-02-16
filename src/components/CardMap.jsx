@@ -13,9 +13,9 @@ import { Link } from 'react-router-dom';
 
 function Card({ cardData }) {
     return (
-        <div className="relative w-full rounded-xl overflow-hidden px-1 fontt">
+        <div className="relative w-full  overflow-hidden px-1 fontt">
             <div className="relative">
-                <img className="rounded-[15px]" src={cardData.image} alt="" />
+                <img className="" src={cardData.image} alt="" />
 
                 <div className="absolute inset-0 flex flex-col items-center justify-start p-5">
                     <div className="flex justify-between w-full">
@@ -27,7 +27,7 @@ function Card({ cardData }) {
 
                         </div>
                     </div>
-                    <div className="absolute inset-x-0 bottom-0   bg-opacity-20 bg-white border-t border-gray-400 backdrop-filter backdrop-blur-lg flex flex-col items-center justify-end p-5 rounded-[15px]">
+                    <div className="absolute inset-x-0 bottom-0   bg-opacity-20 bg-black border-t border-gray-400 backdrop-filter backdrop-blur-lg flex flex-col items-center justify-end p-5 rounded-t-[15px]">
                         <div className="flex justify-between w-full text-white">
                             <div>
                                 <p className='text-lg '>{cardData.name}</p>
