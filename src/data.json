@@ -3,8 +3,8 @@
       "id": 1,
       "image": "/assets/img1.png",
       "image2": "/assets/imgg.jpg",
-      "info3": "info3",
-      "name": "ChatGpt fur Fotografen",
+      "info3": "Peter Bob",
+            "name": "ChatGpt fur Fotografen",
       "description": "In diesem Video Seminar will ich euch ein paar einfache Tricks zeigen wie ihr sinnvoll ChatGPT als Fotogra",
       "location": "5 CR",
       "profession": "28.10.2023",
@@ -18,8 +18,7 @@
       "location": "Regensburg-Bavaria (Germany)",
       "profession": "Photographer",
       "followers": "120k",
-      "info3": "info3"
-
+      "info3": "Peter Bob"
     },
     {
         "id": 3,
@@ -29,8 +28,7 @@
         "location": "Los Angeles-California (United States)",
         "profession": "04/11/2023",
         "followers": "89.1k",
-        "info3": "info3"
-
+        "info3": "Peter Bob"
       },
       {
         "id": 4,
@@ -39,8 +37,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, illum!",
         "location": "New York (USA)",
         "profession": "Photographer",
-        "info3": "info3",
-
+        "info3": "Peter Bob",
         "followers": "120k"
       },
       {
@@ -50,8 +47,7 @@
         "description": "In diesem Video Seminar will ich euch ein paar einfache Tricks zeigen wie ihr sinnvoll ChatGPT als Fotogra",
         "location": "5 CR",
         "profession": "28.10.2023",
-        "info3": "info3",
-
+        "info3": "Peter Bob",
         "followers": "89.1k"
       },
       {
@@ -61,8 +57,7 @@
         "description": "Hey! We are Sarah, Jenny Lennart and Korbi, together we are inDifferent Studios, an ambitious photography",
         "location": "Regensburg-Bavaria (Germany)",
         "profession": "Photographer",
-        "info3": "info3",
-
+        "info3": "Peter Bob",
         "followers": "120k"
       },
       {
@@ -72,8 +67,7 @@
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, illum!",
           "location": "Los Angeles-California (United States)",
           "profession": "04/11/2023",
-          "info3": "info3",
-
+          "info3": "Peter Bob",
           "followers": "89.1k"
         },
         {
@@ -83,7 +77,7 @@
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, illum!",
           "location": "New York (USA)",
           "profession": "Photographer",
-          "info3": "info3",
+          "info3": "Peter Bob",
 
           "followers": "120k"
         },
@@ -94,8 +88,7 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, illum!",
             "location": "New York (USA)",
             "profession": "Photographer",
-            "info3": "info3",
-
+            "info3": "Peter Bob",
             "followers": "120k"
           }
   ]
